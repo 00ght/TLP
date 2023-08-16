@@ -2,33 +2,114 @@
 <html lang="es">
 <style>
     body{
-        background-color: #f1ddaf;
-        color: #6e5f33;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #c9bce7;
+        color: #42237a;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     }
     * {
         margin:0;
         padding:0;
     }
-    #columna1 {
+    #contacto {
         position: absolute;
-        top: 130px;
-        left: 100px;
-        width: 500px;
-        margin-top: 25px;
+        top: 220px;
+        left: 200px;
+        width: 400px;
+    }
+    #resumen {
+        position: absolute;
+        top: 340px;
+        left: 200px;
+        width: 400px;
+    }
+    #educacion {
+        position: absolute;
+        top: 220px;
+        left: 700px;
+        width: 400px;
+    }
+    #experencia{
+        position: absolute;
+        top: 315px;
+        left: 700px;
+        width: 400px;
+    }
+    #habilidades {
+        position: absolute;
+        top: 585px;
+        left: 700px;
+        width: 400px;
+    }
+    .idiomas {
+        position: absolute;
+        top: 610px;
+        left: 200px;
+        width: 400px;
+    }
+    .espanol{
+        position: absolute;
+        top: 640px;
+        left: 310px;
+        width: 400px;
+    }
+    .ingles{
+        position: absolute;
+        top: 665px;
+        left: 310px;
+        width: 400px;
+    }
+    .coreano{
+        position: absolute;
+        top: 690px;
+        left: 310px;
+        width: 400px;
     }
     #perfil {
         position: absolute;
-        top: 0px;
-        left: 320px;
-        margin-top: 15px;
+        top: 15px;
+        left: 350px;
     }
     #titulo {
         position: absolute;
-        top: 2px;
-        left: 150px;
+        top: 0px;
+        left: 750px;
         margin-top: 15px;
-        font-size: larger;
+        font-size: 22px;
+        text-align: center;
+    }
+    #contacto, #resumen, #educacion, #experencia, #habilidades, .idiomas {
+        border: 1px solid #9f72e7;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #b695eb;
+    }
+    .espanol {
+        height: 15px;
+        width: 20%;
+        border: 1px solid;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .ingles {
+        height: 15px;
+        width: 20%;
+        border: 1px solid;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .coreano {
+        height: 15px;
+        width: 20%;
+        border: 1px solid;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .espanol-bar, .ingles-bar, .coreano-bar {
+        height: 100%;
+        background: #9f72e7;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
     }
 </style>
 
@@ -41,34 +122,78 @@
 </head>
 
 <body>
+
     <div id="perfil">
-        <img src="perfil.png" alt="Foto de perfíl del artista" width="250" height="250">
-        <!-- <img src="perfil2.png" alt="Foto de perfíl del personaje" width="250" height="250"> -->
+        <img src="perfil3.png" alt="Foto de perfíl del personaje" width="180" height="180">
     </div>
 
     <div id="titulo">
         <h1>
             <strong>
-                &nbsp; REN <br>
-                HUANG
+                NOMBRE <br>
+                APELLIDO
             </strong>
         </h1>
         <h4>
-            &nbsp;&nbsp;&nbsp;PROFESIÓN
+            INGENIERA INFORMÁTICA
         </h4>
     </div>
 
-    <div id="columna1">
+    <div id="contacto">
 
         <!-- &nbsp;<strong> CONTACTO </strong> -->
-        <br> <img src="direccion.png" alt="Ícono de dirección"> &nbsp;Vancouver, Canadá
+        <img src="direccion.png" alt="Ícono de dirección"> &nbsp;Vancouver, Canadá
         <br> <img src="telefono.png" alt="Ícono de teléfono"> &nbsp;+ 1-1999-08-02
         <br> <img src="correo.png" alt="ïcono de correo electrónico"> &nbsp;lua.huang@sm.ca
+    </div>
 
-        <br><br> <strong> SOBRE MI </strong>
+    <div id="resumen">
+        <strong> RESUMEN PROFESIONAL </strong>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, labore quia quidem esse, molestiae corrupti magni fuga enim amet ad ab, cumque libero repellat magnam consequuntur itaque rem cupiditate delectus. Recusandae, cum? Exercitationem tempore reiciendis deleniti nemo eaque quam, deserunt alias quas labore expedita harum. Vero, dolore eligendi? Quis, provident.
         </p>
+    </div>
+
+    <div id = "educacion">
+        <strong> EDUCACIÓN </strong>
+        <li>
+            UTFSM - Ingeniería Informática (2022-2025)
+        </li>
+    </div>
+
+    <div id="experencia">
+        <strong> EXPERIENCIA LABORAL</strong>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, labore quia quidem esse, molestiae corrupti magni fuga enim amet ad ab, cumque libero repellat magnam consequuntur itaque rem cupiditate delectus. Recusandae, cum? Exercitationem tempore reiciendis deleniti nemo eaque quam, deserunt alias quas labore expedita harum. Vero, dolore eligendi? Quis, provident.
+        </p>
+    </div>
+
+    <div id="habilidades">
+        <strong> HABILIDADES </strong>
+        <p>
+
+        </p>
+    </div>
+
+    <div class="idiomas">
+        <strong> IDIOMAS </strong>
+        <p>
+            ESPAÑOL
+            <br> INGLÉS
+            <br> COREANO
+        </p>
+    </div>
+
+    <div class="espanol">
+        <div class="espanol-bar" style="width: 100%;"></div>
+    </div>
+
+    <div class="ingles">
+        <div class="ingles-bar" style="width: 80%;"></div>
+    </div>
+
+    <div class="coreano">
+        <div class="coreano-bar" style="width: 30%;"></div>
     </div>
 
 </body>
