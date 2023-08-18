@@ -10,60 +10,6 @@
         margin:0;
         padding:0;
     }
-    #contacto {
-        position: absolute;
-        top: 220px;
-        left: 200px;
-        width: 400px;
-    }
-    #resumen {
-        position: absolute;
-        top: 340px;
-        left: 200px;
-        width: 400px;
-    }
-    #educacion {
-        position: absolute;
-        top: 220px;
-        left: 700px;
-        width: 400px;
-    }
-    #experencia{
-        position: absolute;
-        top: 315px;
-        left: 700px;
-        width: 400px;
-    }
-    #habilidades {
-        position: absolute;
-        top: 585px;
-        left: 700px;
-        width: 400px;
-    }
-    .idiomas {
-        position: absolute;
-        top: 610px;
-        left: 200px;
-        width: 400px;
-    }
-    .espanol{
-        position: absolute;
-        top: 640px;
-        left: 310px;
-        width: 400px;
-    }
-    .ingles{
-        position: absolute;
-        top: 665px;
-        left: 310px;
-        width: 400px;
-    }
-    .coreano{
-        position: absolute;
-        top: 690px;
-        left: 310px;
-        width: 400px;
-    }
     #perfil {
         position: absolute;
         top: 15px;
@@ -72,16 +18,66 @@
     #titulo {
         position: absolute;
         top: 0px;
-        left: 750px;
+        left: 50%;
         margin-top: 15px;
         font-size: 22px;
         text-align: center;
+        width: 400px;
     }
-    #contacto, #resumen, #educacion, #experencia, #habilidades, .idiomas {
-        border: 1px solid #9f72e7;
-        padding: 10px;
-        border-radius: 10px;
-        background-color: #b695eb;
+    #contacto {
+        position: absolute;
+        top: 35%;
+        left: 200px;
+        width: 400px;
+    }
+    #resumen {
+        position: absolute;
+        margin: auto;
+        top: 55%;
+        left: 200px;
+        width: 400px;
+    }
+    #educacion {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        width: 400px;
+    }
+    #experencia{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 400px;
+    }
+    #habilidades {
+        position: absolute;
+        top: 99%;
+        left: 50%;
+        width: 400px;
+    }
+    .idiomas {
+        position: absolute;
+        top: 98%;
+        left: 200px;
+        width: 400px;
+    }
+    .espanol{
+        position: absolute;
+        top: 650px;
+        left: 310px;
+        width: 400px;
+    }
+    .ingles{
+        position: absolute;
+        top: 675px;
+        left: 310px;
+        width: 400px;
+    }
+    .coreano{
+        position: absolute;
+        top: 700px;
+        left: 310px;
+        width: 400px;
     }
     .espanol {
         height: 15px;
@@ -110,6 +106,25 @@
         display: flex;
         align-items: center;
         border-radius: 10px;
+    }
+    .habilidad{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 400px;
+    }
+    .habilidad-bar{
+        height: 100%;
+        background: #4a1c9e;
+        display:grid;
+        align-items: center;
+        border-radius: 10px;
+    }
+    #contacto, #resumen, #educacion, #experencia, #habilidades, .idiomas {
+        border: 1px solid #9f72e7;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #b695eb;
     }
 </style>
 
@@ -150,7 +165,10 @@
     <div id="resumen">
         <strong> RESUMEN PROFESIONAL </strong>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, labore quia quidem esse, molestiae corrupti magni fuga enim amet ad ab, cumque libero repellat magnam consequuntur itaque rem cupiditate delectus. Recusandae, cum? Exercitationem tempore reiciendis deleniti nemo eaque quam, deserunt alias quas labore expedita harum. Vero, dolore eligendi? Quis, provident.
+            Ingeniera Informática con experiencia en desarrollo de software y gestión de proyectos.
+            Conocimientos en lenguajes de programación como Java, C++, Python, etc; gestión de proyectos
+            y metodologías ágiles; diseño de bases de datos, interfaces de usuario y redes de computadores.
+            Capacidad de trabajo en equipo y liderazgo, con habilidades de comunicación y organización.
         </p>
     </div>
 
@@ -163,9 +181,18 @@
 
     <div id="experencia">
         <strong> EXPERIENCIA LABORAL</strong>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, labore quia quidem esse, molestiae corrupti magni fuga enim amet ad ab, cumque libero repellat magnam consequuntur itaque rem cupiditate delectus. Recusandae, cum? Exercitationem tempore reiciendis deleniti nemo eaque quam, deserunt alias quas labore expedita harum. Vero, dolore eligendi? Quis, provident.
-        </p>
+        <li>
+            Práctica Profesional en la empresa de desarrollo de software "Sofware Master" (2024-2025)
+        </li>
+        <li>
+            Ingeniera Informática en la empresa de desarrollo de software "Sofware Master" (2025-2030)
+        </li>
+        <li>
+            Gerente de Proyecto en la empresa de desarrollo de software "Sofware Master" (2030-2035)
+        </li>
+        <li>
+            Jefa de Proyecto en la empresa de desarrollo de software "Sofware Master" (2035-2040)
+        </li>
     </div>
 
     <div id="habilidades">
@@ -189,11 +216,15 @@
     </div>
 
     <div class="ingles">
-        <div class="ingles-bar" style="width: 80%;"></div>
+        <div class="ingles-bar" style="width: 85%;"></div>
     </div>
 
     <div class="coreano">
-        <div class="coreano-bar" style="width: 30%;"></div>
+        <div class="coreano-bar" style="width: 25%;"></div>
+    </div>
+
+    <div class="habilidad">
+        <div class="habilidad-bar" style="width: 100%;"></div>
     </div>
 
 </body>
