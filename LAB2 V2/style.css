@@ -1,5 +1,5 @@
 body{
-    background:#c9bce7;
+    background: #c9bce7;
     color: #4a1c9e;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -11,8 +11,8 @@ body{
 }
 
 #contenedor{
-    width: 80%;
-    margin: 0 auto;
+    width: 85%;
+    margin: auto;
 }
 
 header{
@@ -27,6 +27,8 @@ header{
 nav{
     width: 100%;
     background-color: #b695eb;
+    border-top: 2px solid #9f72e7;
+    border-bottom: 2px solid #9f72e7;
     border-radius: 10px;
     color: #c9bce7;
     text-align: center;
@@ -47,24 +49,55 @@ article{
     width: 100%;
     padding: 1em;
     background-color: #b695eb;
-    border: 2px solid #9f72e7;
+    border-top: 2px solid #9f72e7;
+    border-bottom: 2px solid #9f72e7;
     border-radius: 10px;
     margin-top: 20px;
 }
 
+.resu-title, .edu-title, .exp-title, .cont-title, #habilidades, #idiomas{
+    text-align: center;
+}
+
 #contenido{
     width: 65%;
-    color: #4a1c9e;
     text-align: left;
     float: left;
 }
 
-.idioma{
+#habilidades{
+    width: 48%;
+    float: left;
+}
+
+.habilidad{
     height: 15px;
-    width: 80%;
+    width: 75%;
     border: 1px solid;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.habilidad-bar{
+    height: 100%;
+    background: #4a1c9e;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#idiomas{
+    width: 48%;
+    float: right;
+}
+
+.idioma{
+    height: 15px;
+    width: 75%;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
     float: right;
 }
 
@@ -76,16 +109,8 @@ article{
     border-radius: 10px;
 }
 
-.busqueda{
-    background-color: #b695eb;
-    padding: 1em;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
 aside{
     width:30%;
-    color: #4a1c9e;
     text-align: left;
     float: right;
     margin-top: 20px;
