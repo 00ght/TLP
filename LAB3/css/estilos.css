@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: #85D4B7;
+    color: #fff;
+    height: 100px;
+    text-align: center;
+}
+
+#vegan{
+    background: #6DCCAA;
+    text-align: center;
+    height: 800px;
+}
+
+#footer{
+    background: #6DCCAA;
+    color: #fff;
+    text-align: center;
+    height: 130px;
+    padding-top: 40px;
+}
+
+#coaching{
+    background: #fff;
+    height: 800px;
+    padding-top: 50px;
+}
+
+#text-left{
+    text-align: right;
+}
+
+button{
+    padding: 5px 10px 5px;
+}
+
+#eetcafe{
+    background: #FFCF3F;
+    height: 520px;
+    text-align: center;
+}
+
+#winkel{
+    height: 500px;
+    text-align: center;
+    background: #eee;
+}
+#crudo{
+    padding-top: 210px;
+}
+
+#form{
+    padding-top: 110px;
+}
+
+input{
+    width: 80%;
+    border: 2px solid #ccc;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 80%;
+    border: 2px solid #ccc;
+}
